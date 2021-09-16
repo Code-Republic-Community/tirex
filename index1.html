@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet/less" type="text/css" href="styles1.less" />
+    <style>
+        p {
+            color: blue;
+            font-family: verdana;
+            font-size: 250%;
+        }
+        
+        button::Tirex {
+            color: red;
+        }
+        
+        #button-holder {
+            cursor: pointer;
+            float: right;
+            height: 0px;
+            margin: -25px 0 0 0;
+            text-align: center;
+            width: 80px;
+        }
+        
+        #button-holder img {
+            margin: 20px;
+            width: 40px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirex</title>
+</head>
+
+<body>
+
+    <div class="Background">
+        <a style="font-weight:bold" href="./about.html" style="text-decoration:none" target="_blank">about</a>
+        <a style="font-weight:bold" style="text-decoration:none" href="./contact.html" target="_blank">contact</a>
+        <a href="all.html" style="font-weight:bold;text-decoration:none" target="_blank">all &nbsp</a>
+        <a href="images.html" style="font-weight:bold;text-decoration:none" target="_blank">images &nbsp </a>
+        <a href="videos.html" style="font-weight:bold;text-decoration:none" target="_blank">vidoes &nbsp </a>
+    </div>
+
+    <div class="text-3d">TireX</div>
+    <p style="text-align:center;" id="about"></p>
+
+    <form action="/search" role="search">
+        <input id="address" type="search" onkeypress="handle(event)" placeholder="Search here..." autofocus required />
+        <button type="submit">Go</button>
+    </form>
+
+    <script>
+        function search_func() {
+            address = document.getElementById("address").value;
+        }
+
+        function handle(e) {
+            address = document.getElementById("address").value;
+            return false;
+        }
+    </script>
+
+</body>
+
+</html>
