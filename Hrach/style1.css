@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.search1 {
+  width: 500px;
+  height: 40px;
+  margin: 277px auto;
+  background: #444;
+  background: rgba(0,0,0,.2);
+  border-radius:  3px;
+  border: 1px solid #fff;
+
+  }
+
+  .input1 {
+    width: 370px;
+    padding: 10px 5px;
+    float: left;
+    color: #ccc;
+    border: 0;
+    background: transparent;
+    border-radius: 3px 0 0 3px;
+      outline: 0;
+      background:transparent;
+    
+    }
+  
+  .button1 {
+    position: fixed;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    background: transparent;
+    border-left: 1px solid #fff;
+    border-radius: 0 3px 3px 0;
+    
+   
+  }  
+  button1:hover {
+    background: #fff;
+    color:#444;
+  }
+  button1:active {
+    box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+  }
+  
+  button1:focus {
+    outline: 0;
+  }
+
+
+
+h1{
+
+  color: yellow ;
+  font-size: 70px;
+    text-align: initial;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 150px;
+    right:850px;
+    animation: myanimation 5s infinite alternate;
+  
+
+}
+
+.about{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.about:hover{
+
+  color: red;
+}
+
+.contact{
+  position: absolute;;
+  left: 50px;
+  bottom: 0;
+}
+
+.contact:hover{
+
+  color: red;
+}
+
+@keyframes myanimation {
+
+  from{
+
+    color: yellow;
+    font-size: 30px;
+  }
+
+  to{
+
+    color: greenyellow;
+  }
+  
+}
+
