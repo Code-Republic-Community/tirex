@@ -1,0 +1,16 @@
+{
+  "name": "simple_scraping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sergey Davtyan",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.8",
+    "puppeteer": "^10.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
