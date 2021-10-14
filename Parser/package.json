@@ -1,0 +1,21 @@
+{
+  "name": "simple_scraping",
+  "version": "1.0.0",
+  "main": "",
+  "author": "Noro Isakhanyan",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "fs": "0.0.1-security",
+    "mongoose": "^6.0.8",
+    "natural": "^5.1.1",
+    "pluralize": "^8.0.0",
+    "pos": "^0.4.2",
+    "puppeteer": "^10.4.0",
+    "wink-lemmatizer": "^3.0.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
